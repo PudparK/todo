@@ -2,12 +2,12 @@ import React from "react";
 import "./App.css";
 
 //Components
-import Todo from "../src/components/Todo";
+import Todos from "components/Todos";
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <Todos />
     </div>
   );
 }
